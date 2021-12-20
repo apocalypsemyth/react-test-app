@@ -1,0 +1,14 @@
+.dot-button {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  margin: 1rem 0.2rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot-button:hover {
+  background-color: #717171;
+}

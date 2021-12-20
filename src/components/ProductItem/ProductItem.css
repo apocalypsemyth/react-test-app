@@ -1,0 +1,12 @@
+.product-item {
+  padding: 1em;
+}
+
+.product-item__image {
+  border-radius: 1rem;
+  max-width: 100%;
+}
+
+.product-item p {
+  text-align: center;
+}

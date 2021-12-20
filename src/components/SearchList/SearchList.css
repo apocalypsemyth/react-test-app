@@ -1,0 +1,36 @@
+.search-list--show {
+  position: absolute;
+}
+
+.search-list--hidden {
+  display: none;
+}
+
+.search-list {
+  top: calc(100% + 0.1em);
+  left: 4rem;
+  width: 50em;
+  height: 80vh;
+  overflow-y: auto;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-list li a {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1em;
+  max-width: 100%;
+  color: #212121;
+  background-color: #f6f6f6;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.search-list li a:hover {
+  color: #42a5f5;
+  background-color: #eee;
+}

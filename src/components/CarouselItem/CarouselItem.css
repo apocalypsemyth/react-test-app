@@ -1,0 +1,50 @@
+.carousel__slide {
+  border-radius: 1rem;
+  background-color: #616161;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel__number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.7rem 1rem;
+  color: #f2f2f2;
+  font-size: 1rem;
+}
+
+.carousel__image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__image {
+  border-radius: 1rem;
+  min-height: 29.99em;
+  max-height: 30em;
+}
+
+.carousel__content {
+  position: absolute;
+  bottom: 0.8em;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  color: #f2f2f2;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.carousel__image--snap {
+  animation-name: snap;
+  animation-duration: 1.5s;
+}
+
+@keyframes snap {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

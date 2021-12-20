@@ -1,0 +1,42 @@
+.product-sort-button-container {
+  padding: 1em 3em;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-sort-button {
+  padding: 1em;
+  border: none;
+  border-radius: 1rem;
+  margin: 1em 0.5em;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+
+.product-sort-button:hover {
+  opacity: 0.6;
+}
+
+.product-sort-button--bgcolor-1 {
+  background-image: linear-gradient(to right, #42a5f5 30%, #1565c0);
+}
+
+.product-sort-button--bgcolor-2 {
+  background-image: linear-gradient(to left, #42a5f5 30%, #1565c0);
+}
+
+.product-sort-button--bgcolor-3 {
+  background-image: linear-gradient(to right, #ba68c8 30%, #7b1fa2);
+}
+
+.product-sort-button--bgcolor-4 {
+  background-image: linear-gradient(to left, #ba68c8 30%, #7b1fa2);
+}
